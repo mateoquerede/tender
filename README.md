@@ -10,5 +10,5 @@ Tender es un sistema web diseñado para que los usuarios puedan comprobar las co
 El sistema se comenzó a desarrollar con varias condiciones autoimpuestas, aquí su listado.
 
 - Los datos a tomar y procesar serán los proporcionados por la API del SMN (Servicio Meteorológico Nacional)
-- No se utilizará base de datos, todo se hará a través de consumir la API del SMN y realizar los cálculos en el momento.
+- Solo se utilizará base de datos para guardar usuarios y configuraciones del usuario, todo se hará a través de consumir la API del SMN y realizar los cálculos en el momento.
 - Ni una línea de CSS, todo el frontend se desarrollará en base a Tailwind sin utilizar CSS personalizado.
