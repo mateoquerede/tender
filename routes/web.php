@@ -2,12 +2,11 @@
 
 use App\Http\Controllers\Auth\SocialiteController;
 use App\Http\Controllers\Auth\SocialLoginController;
+use App\Http\Controllers\InicioController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('index');
-})->name('inicio');
+Route::get('/', [InicioController::class, 'inicio'])->name('inicio');
 
 //Route::get('/dashboard', function () {
 //    return view('dashboard');

@@ -7,18 +7,16 @@
 
         <title>Tender</title>
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet" />
 
         <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
-            @include('layouts.navigation')
+    <body class="font-sans antialiased ">
+        <div class="min-h-screen light:bg-gradient-to-r light:from-indigo-400 light:to-cyan-400 dark:bg-gradient-to-t dark:from-blue-800 dark:to-indigo-900">
+{{--            @include('layouts.navigation')--}}
 
             <!-- Page Heading -->
             @isset($header)

@@ -13,6 +13,12 @@ export default {
                 sans: ['Roboto', ...defaultTheme.fontFamily.sans],
                 logo: ['Chillax', 'sans-serif']
             },
+            width: {
+                '9/20': '45%',
+            },
+            backgroundColor: {
+                'fake-transparent': '#343A66'
+            }
         },
     },
   plugins: [],

@@ -53,4 +53,8 @@ return [
         'redirect' => env('LINKEDIN_REDIRECT_URL'),
     ],
 
+    'weather' => [
+        'key' => env('WEATHER_API_KEY'),
+    ],
+
 ];
